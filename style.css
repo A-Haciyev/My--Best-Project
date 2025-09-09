@@ -1066,12 +1066,12 @@ font-size: 40px;
 
 .section3{
     width: 100%;
-    height: 130vh;
+    height: 140vh;
     
 }
 .containers{
     width: 75%;
-    height: 90%;
+    height: 65%;
     
     display: flex;
 justify-content: space-evenly;
@@ -1107,15 +1107,18 @@ margin-right: auto;
     padding-top: 2%;
 }
 .sec{
-    font-size: 130%;
+    font-size: 80%;
     display: flex;
     justify-content: center;
     color: azure;
-    padding-top: 9%;
+    padding-top: 40%;
    
     font-family: "Titillium Web", sans-serif;
     
    
+}
+.seccc{
+  padding-top: 5%;
 }
 .sec11{
     padding-left: 0.8%;
