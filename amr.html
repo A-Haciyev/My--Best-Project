@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AMR Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asimovian&family=Libertinus+Keyboard&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="style.css"/>
+
+
+
+</head>
+<body>
+<section class="cur-section">
+       <h2 class="cur-title bmr-titl">AMR Calculator</h2>
+<div class="elements">
+    <div class="element element1">
+      
+   <input class="bmr-inp bmr1 bmr111 amr2" type="number" min="0" placeholder="Enter Your Weight(KG)" >
+
+     <input class="bmr-inp bmr2 amr2" type="number" min="0" max="250" placeholder="Enter Your Height(CM)" >
+     <select class="amr-sel bmr-sel1 nan">
+      <option value="NON" selected>Gender</option>
+         <option value="MAN">MAN</option>
+         <option value="WOM">WOMAN</option>
+      </select>
+
+     <input class="bmr-inp bmr3 amr2" type="number" min="0" max="" placeholder="Enter Your Age" >
+<select class="amr-sel bmr-sel2 ">
+      <option  value="SELE" selected >Lifestyle</option>
+         <option value="SEDE">Sedentary</option>
+         <option value="LIGH">Lightly active</option>
+         <option value="MODE">Moderately active</option>
+         <option value="VERY">Very active</option>
+         <option value="EXT">Extra active</option>
+      </select>
+      <select class="amr-sel bmr-sel1 nan2">
+      <option value="NON" selected>Gender</option>
+         <option value="MAN">MAN</option>
+         <option value="WOM">WOMAN</option>
+      </select>
+</div>
+<div class="element element2">
+
+<h1 class="calc5 calc55">Your Daily Calory Norm Is...</h1>
+<input class="bmr-inp bmr4 " type="number"  placeholder="Calculated value" readonly>
+   </div>
+
+
+</div>
+</section>
+
+   <script src="./amr.js"></script>
+
+<body>
+</html>
